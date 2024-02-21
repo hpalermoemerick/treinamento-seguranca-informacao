@@ -15,6 +15,7 @@ Descreva aqui como instalar e configurar o seu projeto. Inclua instruções clar
 
 ```bash
 npm install
+```
 
 ## Uso
 
