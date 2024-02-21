@@ -1,4 +1,4 @@
-# Título do Projeto
+# API Wheather
 
 Uma breve descrição do projeto vai aqui.
 
@@ -6,8 +6,6 @@ Uma breve descrição do projeto vai aqui.
 
 - [Instalação](#instalação)
 - [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Instalação
 
