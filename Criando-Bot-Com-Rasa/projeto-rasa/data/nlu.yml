@@ -97,7 +97,10 @@ nlu:
     - Eu quero uma pizza
     - Estou querendo uma pizza
 
-- intent: despedida_pizzaria
+- intent: programacao
   examples: |
-    - Obrigado
-    - Fico agradecido
+    - O que é programação
+    - Programação
+    - JavaScript é uma linguagem de programação
+    - Como programar em Python
+    - O que posso fazer com Java

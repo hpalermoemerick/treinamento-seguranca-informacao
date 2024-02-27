@@ -11,6 +11,7 @@ intents:
   # "importando" a intent de data/nlu.yml
   - order_pizza
   - despedida_pizzaria
+  - programacao
 
 responses:
   utter_greet:
@@ -38,6 +39,9 @@ responses:
 
   utter_despedida_pizzaria:
   - text: "Seu pedido já foi anotado!"
+
+  utter_programacao:
+  - text: "A programação é uma área muito importante da informática, pois permite o desenvolvimento de aplicações que atendem as devidas necessidades dos usuários."
 
 
 session_config:

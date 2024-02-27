@@ -30,7 +30,12 @@ stories:
   - action: utter_goodbye
 
 # criando uma story
- story: path 1
+- story: pedir pizza
   steps:
   - intent: order_pizza
   - action: utter_order_pizza
+
+- story: programacao
+  steps:
+  - intent: programacao
+  - action: utter_programacao

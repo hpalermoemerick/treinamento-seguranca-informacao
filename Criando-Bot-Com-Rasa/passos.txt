@@ -24,3 +24,25 @@ data/rules.yml
     -> tipo de dados de treinamento usados ​​para treinar o modelo de diálogo de seu assistente
     -> descrevem pequenas partes de conversas que devem sempre seguir o mesmo caminho
 
+Actions
+    -> o que seu bot pode realmente fazer. Exemplos:
+        - Responder um usuário
+        - Fazer uma chamada a uma API externa
+        - Consultar um banco de dados
+        - Alguma outra ação via código
+
+Treinando um modelo
+    -> $rasa init
+        - chamará as funções de trem Rasa Core e NLU
+        - armazenará o modelo treinado no diretório models/.
+
+Converse com seu bot
+    -> $rasa shell
+
+Conceitos a serem vistos:
+    -> Rasa Core
+    -> Rasa X
+    -> stories.yml
+    -> rules.yml
+    -> treinar models
+    -> Parece que há um problema com a interpretação da entrada "JavaScript" pelo seu bot. Ele está sendo interpretado como um input para a intent mood_unhappy, que por sua vez está acionando a action utter_cheer_up.
