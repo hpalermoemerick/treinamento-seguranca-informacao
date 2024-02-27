@@ -46,3 +46,4 @@ Conceitos a serem vistos:
     -> rules.yml
     -> treinar models
     -> Parece que há um problema com a interpretação da entrada "JavaScript" pelo seu bot. Ele está sendo interpretado como um input para a intent mood_unhappy, que por sua vez está acionando a action utter_cheer_up.
+    -> rasa train

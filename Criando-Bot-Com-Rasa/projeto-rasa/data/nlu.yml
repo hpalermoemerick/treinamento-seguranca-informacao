@@ -104,3 +104,7 @@ nlu:
     - JavaScript é uma linguagem de programação
     - Como programar em Python
     - O que posso fazer com Java
+
+- intent: show_simple_website
+  examples: |
+    - me mostre um site simples

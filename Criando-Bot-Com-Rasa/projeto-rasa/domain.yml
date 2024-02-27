@@ -12,6 +12,7 @@ intents:
   - order_pizza
   - despedida_pizzaria
   - programacao
+  - show_simple_website
 
 responses:
   utter_greet:
@@ -43,6 +44,9 @@ responses:
   utter_programacao:
   - text: "A programação é uma área muito importante da informática, pois permite o desenvolvimento de aplicações que atendem as devidas necessidades dos usuários."
 
+  utter_show_simple_website:
+  - custom:
+      html: "<html><body><h1>Este é um site simples.</h1><p>Olá! Este é um site HTML simples.</p></body></html>"
 
 session_config:
   session_expiration_time: 60
