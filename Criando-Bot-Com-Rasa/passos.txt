@@ -1,3 +1,5 @@
+https://blog.brq.com/rasa-2-0-criando-um-chatbot-com-uma-poderosa-ferramenta-open-source/
+
 arvore do projeto
 - rasa
     - deufome
@@ -16,3 +18,9 @@ data/nlu.yml(Natural Language Understanding)
     -> intent: definem os nomes das suas intenções, que são grupos de mensagens com o mesmo significado. 
 domain.yml
     -> para criar os textos de resposta do nosso bot.
+data/stories.yml
+    -> treinar modelos capazes de generalizar caminhos de conversação
+data/rules.yml
+    -> tipo de dados de treinamento usados ​​para treinar o modelo de diálogo de seu assistente
+    -> descrevem pequenas partes de conversas que devem sempre seguir o mesmo caminho
+

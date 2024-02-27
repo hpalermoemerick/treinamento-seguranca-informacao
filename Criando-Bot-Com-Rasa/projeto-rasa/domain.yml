@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  # "importando" a intent de data/nlu.yml
+  - order_pizza
+  - despedida_pizzaria
 
 responses:
   utter_greet:
@@ -28,6 +31,14 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  # definindo o que responder nesse contexto
+  utter_order_pizza:
+  - text: "Ótimo, qual sabor você gostaria de pedir?"
+
+  utter_despedida_pizzaria:
+  - text: "Seu pedido já foi anotado!"
+
 
 session_config:
   session_expiration_time: 60

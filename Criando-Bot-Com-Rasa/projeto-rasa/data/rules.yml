@@ -11,3 +11,9 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+# cria uma regra
+- rule: Se despede sempre que o usuário agradecer
+  steps:
+  - intent: despedida_pizzaria
+  - action: utter_despedida_pizzaria

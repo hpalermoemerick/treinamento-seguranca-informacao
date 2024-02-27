@@ -89,3 +89,15 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+# criando uma intent
+- intent: order_pizza
+  examples: |
+    - Gostaria de pedir uma pizza
+    - Eu quero uma pizza
+    - Estou querendo uma pizza
+
+- intent: despedida_pizzaria
+  examples: |
+    - Obrigado
+    - Fico agradecido
