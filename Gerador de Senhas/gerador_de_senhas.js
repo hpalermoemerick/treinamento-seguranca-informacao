@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
     let numero = form.numero;
     let simbolo = form.simbolo;
 
-    if (maiuscula.value) {
+    if (maiuscula.checked) {
         let letra = String.fromCharCode(Math.floor(Math.random() * 26) + 65);
         document.querySelector('#senha').value = letra; 
         letra = String.fromCharCode(Math.floor(Math.random() * 26) + 65);
